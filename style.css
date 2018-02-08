@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbfbfb;
+    margin: 0;
+}
+
+h1 {
+    margin: 1%;
+    display: inline-block;
+}
+
+.sealle {
+    float: right;
+    display: inline-block;
+    margin: 1em;
+    color: #32785D;
+    text-decoration: underline;
+}
+
+/* Link & Hover */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+figure:hover {
+    opacity: 0.7;
+    color: #32785D;
+}
+
+
+/* 'Most Popular' Bar */
+
+.white {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+    padding-top: 0.5em;
+}
+
+.musik {
+    margin: 3%;
+}
+
+
+/* Flexbox */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  clear: both;
+}
+
+.galleryitem {
+  flex: 1 0 15em;
+  max-width: 100%;
+  margin: 0.7rem;
+  margin-top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galleryitem img{
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+
+.galleryitem span {
+  display: block;
+  padding-left: 0.4em;
+  line-height: 1.8em;
+  background-color: #e7e6e6;
+}
+
+/* Img Icons & Table */
+
+.place {
+    max-width: 1em;
+    float: right;
+} 
+
+th {
+    text-align: left;
+}
+
+
+.ras {
+    font-size: 1.4em;
+}
+
+/* Icons made by Freepik on Flaticon.com */
